@@ -9,7 +9,7 @@ const captchaPage = new CaptchaPage();
 const translatePage = new TranslatePage();
 const resultsPage = new ResultsPage();
 
-describe('Translator', () => {
+describe('Yandex', () => {
     it('Should translate from ENG to RU', () => {
       homePage.open()
       // captchaPage.checkIamNotRobot()
